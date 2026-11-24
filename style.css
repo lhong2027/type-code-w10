@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+    padding: 10px;
+    background-color: rgb(255, 255, 245);
+    color: rgb(0, 0, 0);
+    height: 100vh;
+}
+
+.element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#organism {
+}
+
+button {
+    border-color: rgb(226, 125, 43);
+    background-color: rgb(255, 250, 235);
+    color: rgb(226, 125, 43);
+    font-weight: 500;
+    margin: 50px;
+    padding: 20px 40px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
